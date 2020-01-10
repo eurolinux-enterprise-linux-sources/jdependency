@@ -1,6 +1,6 @@
 Name:           jdependency
 Version:        0.7
-Release:        10%{?dist}
+Release:        9%{?dist}
 Summary:        This project provides an API to analyse class dependencies
 License:        ASL 2.0
 URL:            http://github.com/tcurdt/%{name}
@@ -42,9 +42,6 @@ Summary:        API documentation for %{name}
 %doc LICENSE.txt
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.7-10
-- Mass rebuild 2013-12-27
-
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0.7-9
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
